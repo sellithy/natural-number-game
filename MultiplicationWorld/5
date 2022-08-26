@@ -1,0 +1,4 @@
+induction c with k IH,
+repeat {rw mul_zero},
+
+rwa [mul_succ, mul_succ, mul_add, IH],
