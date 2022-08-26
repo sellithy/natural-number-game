@@ -1,0 +1,10 @@
+induction c with d hypo,
+rw add_zero,
+rw add_zero,
+refl,
+
+rw add_succ,
+rw add_succ,
+rw add_succ,
+rw hypo,
+refl,
