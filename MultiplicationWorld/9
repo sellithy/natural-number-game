@@ -1,0 +1,1 @@
+rwa [← mul_assoc, mul_comm a b, mul_assoc],
