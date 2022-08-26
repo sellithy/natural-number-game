@@ -1,0 +1,5 @@
+induction a with k IH,
+rwa [zero_mul, mul_zero],
+
+rw [succ_eq_add_one, mul_add, add_mul, IH],
+simp,
