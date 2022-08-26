@@ -1,0 +1,12 @@
+induction b with k IH,
+rw add_zero,
+rw mul_zero,
+rw add_zero,
+refl,
+
+rw mul_succ,
+rw ← add_assoc (t * a) (t * k) t,
+rw ← IH,
+rw ← mul_succ,
+rw add_succ,
+refl,
