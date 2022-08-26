@@ -1,0 +1,8 @@
+induction m with k IH,
+rw mul_zero,
+refl,
+
+rw mul_succ,
+rw IH,
+rw succ_eq_add_one,
+refl,
