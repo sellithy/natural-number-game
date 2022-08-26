@@ -1,0 +1,4 @@
+induction a with k IH,
+rwa [zero_mul, zero_add, zero_add],
+
+rwa [succ_mul k t, add_right_comm, ← IH, ← succ_mul, succ_add],
