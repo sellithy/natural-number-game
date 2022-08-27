@@ -1,0 +1,4 @@
+intros pToq qToe p,
+apply qToe,
+apply pToq,
+exact p,
