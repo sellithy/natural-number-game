@@ -1,0 +1,5 @@
+repeat {rw not_iff_imp_false},
+intros pq qF p,
+apply qF,
+apply pq,
+exact p,
