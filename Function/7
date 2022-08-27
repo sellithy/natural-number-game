@@ -1,0 +1,4 @@
+intros pToq qTof p,
+apply qTof,
+apply pToq,
+exact p,
