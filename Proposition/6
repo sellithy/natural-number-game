@@ -1,0 +1,5 @@
+intros pqr pq p,
+have j := pqr p,
+apply j,
+apply pq,
+exact p,
